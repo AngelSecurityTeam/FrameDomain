@@ -1,0 +1,6 @@
+requests
+readline
+wget
+bs4
+soupsieve
+beautifulsoup4
