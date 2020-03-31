@@ -2,7 +2,7 @@
 
 Framework  - Find Subdomains
 
-<h3> Mode Of Execution: </h3>
+<h3> Execution: </h3>
 
 * apt-get install python3
 
@@ -18,7 +18,7 @@ Framework  - Find Subdomains
 
 <h3> FrameDomain </h3>
 
-<img src="https://github.com/AngelSecurityTeam/FrameDomain/blob/master/111.png">
+<img src="https://github.com/AngelSecurityTeam/FrameDomain/blob/master/module/img.png">
 
 <h3> Paypal Donations: </h3>
 
