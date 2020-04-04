@@ -1,6 +1,6 @@
 # FrameDomain
 
-Framework  - Find Subdomains
+FrameDomain Framework  - Find Subdomains
 
 <h3> Execution: </h3>
 
