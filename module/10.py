@@ -178,7 +178,7 @@ def enumThreatcrowd():
 
 
     if "subdomains" not in j:
-        print('\t - JSON output seems to be empty!')
+        print("")
         return
 
     for e in j['subdomains']:
