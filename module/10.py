@@ -265,3 +265,4 @@ finally:
 print("\033[1;39m")
 os.system('cat results/' + domain + '.txt')
 
+
