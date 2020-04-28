@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#github.com/AngelSecurityTeam/Shodan
 import requests, sys, json
 
 def tldSorting(subdomainList):
@@ -17,7 +18,7 @@ def tldSorting(subdomainList):
     return finallist
 
 apikey = input("\n\033[1;39mAPI : \033[1;39m")
-domain = input("\n\033[1;39mDomain : \033[1;39m")
+domain = input("\n\033[1;39mWebsite : \033[1;39m")
 
 r =requests.get('https://api.shodan.io/dns/domain/' + domain + '?key=' + apikey)
 data = json.loads(r.text)
