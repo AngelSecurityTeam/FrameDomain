@@ -18,7 +18,7 @@ FrameDomain Framework  -  enumeration and information gathering tool
 
 <h3> FrameDomain </h3>
 
-<img src="https://github.com/AngelSecurityTeam/FrameDomain/blob/master/module/img.png">
+<img src="https://github.com/AngelSecurityTeam/FrameDomain/blob/master/module/framedomain.png">
 
 <h3> Paypal Donations: </h3>
 
