@@ -30,7 +30,11 @@ def banner():
 \033[1;36m[\033[1;39m10\033[1;36m]\033[1;39m DnsDumpester
 \033[1;36m[\033[1;39m11\033[1;36m]\033[1;39m SubInscanA
 \033[1;36m[\033[1;39m12\033[1;36m]\033[1;39m TranspaGOOGLE
-\033[1;36m[\033[1;39m13\033[1;36m]\033[1;39m Exit    
+\033[1;36m[\033[1;39m13\033[1;36m]\033[1;39m Anubis 
+\033[1;36m[\033[1;39m14\033[1;36m]\033[1;39m Alienvault 
+\033[1;36m[\033[1;39m15\033[1;36m]\033[1;39m Threatminer 
+\033[1;36m[\033[1;39m16\033[1;36m]\033[1;39m Riddler
+\033[1;36m[\033[1;39m0\033[1;36m]\033[1;39m  Exit    
 """)
 
 def opt_ini():
@@ -98,7 +102,27 @@ def opt_ini():
 	    opt10=input("\n\033[1;39mWebsite : \033[1;39m")
 	    print("\033[1;39")    
 	    os.system("python3 11.py -d "+opt10)
-	    print(" ")	    	    
+	    print(" ")
+    if(opt == '13'):
+	    opt13=input("\n\033[1;39mWebsite : \033[1;39m")
+	    print("\033[1;39m")
+	    os.system("bash 5.sh -cert "+opt13)
+	    print(" ")
+    if(opt == '14'):
+	    opt14=input("\n\033[1;39mWebsite : \033[1;39m")
+	    print("\033[1;39m")
+	    os.system("bash 6.sh -cert "+opt14)
+	    print(" ")
+    if(opt == '15'):
+	    opt15=input("\n\033[1;39mWebsite : \033[1;39m")
+	    print("\033[1;39m")
+	    os.system("bash 7.sh -cert "+opt15)
+	    print(" ")
+    if(opt == '16'):
+	    opt15=input("\n\033[1;39mWebsite : \033[1;39m")
+	    print("\033[1;39m")
+	    os.system("bash 8.sh -cert "+opt15)
+	    print(" ")	    	    		    	    	    	    
     else:
         exit()	   
 
@@ -106,4 +130,5 @@ if __name__ == '__main__':
  main()
 banner()
 opt_ini()
+
 
