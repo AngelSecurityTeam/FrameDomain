@@ -1,6 +1,6 @@
 # FrameDomain
 
-FrameDomain Framework  - Find Subdomains
+FrameDomain Framework  -  enumeration and information gathering tool 
 
 <h3> Execution: </h3>
 
