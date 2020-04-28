@@ -17,7 +17,7 @@ def eliminate(l):
                 
 url="https://dnsdumpster.com/"
 print('''\033[1;39m''')
-dom=input("Domain: ")
+dom=input("\033[1;39mWebsite: \033[1;39m")
 print ('''  ''')
 r=requests.get(url)
 t=r.text
@@ -51,6 +51,7 @@ for i in f.readlines():
                                                                
                                                                link=link+[a[100:-100]]
                                                                n+=1
+print("\033[1;39m")
 for i in link:
     eliminate(i)
 for i in total:
