@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+#github.com/AngelSecurityTeam/Entrust
 import requests
 import optparse
 from optparse import OptionParser
@@ -12,7 +14,7 @@ domain = options.domain
 
 url = 'https://ctsearch.entrust.com/api/v1/certificates?fields=subjectDN&domain=%s&includeExpired=false&exactMatch=false&limit=5000' % domain
 
-useragent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'
+useragent = 'Mozilla/5.0 (X11; Linux i686; rv:75.0) Gecko/20100101 Firefox/75.0'
 
 headers = {'User-Agent': useragent}
 
