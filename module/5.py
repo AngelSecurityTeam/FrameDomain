@@ -2,18 +2,6 @@
 # https://github.com/AngelSecurityTeam/GatheTOOL
 import os,socket,requests,platform
 
-def logo():
-    
-    print('''
-\033[96m ██████╗  █████╗ ████████╗██╗  ██╗███████╗████████╗ ██████╗  ██████╗ ██╗     
-\033[96m██╔════╝ ██╔══██╗╚══██╔══╝██║  ██║██╔════╝╚══██╔══╝██╔═══██╗██╔═══██╗██║     
-\033[96m██║  ███╗███████║   ██║   ███████║█████╗     ██║   ██║   ██║██║   ██║██║     
-\033[39m██║   ██║██╔══██║   ██║   ██╔══██║██╔══╝     ██║   ██║   ██║██║   ██║██║     
-\033[39m╚██████╔╝██║  ██║   ██║   ██║  ██║███████╗   ██║   ╚██████╔╝╚██████╔╝███████╗
-\033[39m ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝ ''')
-    print("""                                                           \033[39m|AngelSecurityTeam|\033[39m""")
-    print()
-
 def menu():
     print("""
 \033[39m 1)\033[96m Whois Lookup             \033[39m8)\033[96m HTTP Header                  
@@ -50,13 +38,13 @@ def GATHETOOL():
 
 
 def opciones():
-        logo()
-        website = input('\033[96mWebsite : \033[39m')
+        
+        website = input('\033[39mWebsite : \033[39m')
         
         
         menu()
         
-        valorselec = input('Option: \033[39m')   
+        valorselec = input('\033[39mOption: \033[39m')   
 
        
 		   
@@ -163,3 +151,4 @@ def opciones():
            
             GATHETOOL()
 GATHETOOL()
+
