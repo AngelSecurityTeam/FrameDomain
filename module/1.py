@@ -1,21 +1,11 @@
 #!/usr/bin/env python3
-#https://github.com/AngelSecurityTeam/
+#https://github.com/AngelSecurityTeam/SubExtractor
 
 import sys
 import urllib.request
 import urllib.parse
 import re
-print("""
-
-\033[1;35m   _____       __    ______     __                  __            
-  / ___/__  __/ /_  / ____/  __/ /__________ ______/ /_____  _____
-  \__ \/ / / / __ \/ __/ | |/_/ __/ ___/ __ `/ ___/ __/ __ \/ ___/
-\033[1;39m ___/ / /_/ / /_/ / /____>  </ /_/ /  / /_/ / /__/ /_/ /_/ / /\033[1;35m    
-\033[1;39m/____/\__,_/_.___/_____/_/|_|\__/_/   \__,_/\___/\__/\____/_/    \033[1;35m 
-                                           AngelSecurityTeam v2 \033[1;39m 
-                        
-""")
-
+print("\033[1;39m")
 if len(sys.argv) == 1:
 	print("Usage: " + sys.argv[0] + " example.com ")
 	sys.exit(1)
